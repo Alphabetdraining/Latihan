@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* content-box itu totalnya menyesuaikan width, height, dan padding (misal 50 itu jadinya 50 + 50) */
+
+.box-1 {
+    width: 700px;
+    height: 300px;
+    box-sizing: content-box;
+    padding: 50px;
+    border: 30px solid black;
+}
+
+/* border box itu totalnya menyesuaikan width dan height */
+.box-2 {
+    width: 700px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 50px;
+    border: 30px solid black;
+}
+
+/* margin is not part of element */
